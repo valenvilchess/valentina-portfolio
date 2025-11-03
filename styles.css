@@ -255,6 +255,7 @@ section {
 .projects {
     background: var(--bg-white);
     position: relative;
+    padding-bottom: var(--spacing-lg);
 }
 
 .projects::before {
@@ -510,8 +511,8 @@ section {
     color: var(--text-light);
     font-style: italic;
     text-align: center;
-    margin-top: var(--spacing-lg);
-    padding-top: var(--spacing-md);
+    margin-top: var(--spacing-md);
+    margin-bottom: 0;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
