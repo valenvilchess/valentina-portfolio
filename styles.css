@@ -506,17 +506,16 @@ section {
 
 /* Projects Closing Note */
 .projects-closing {
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--text-light);
     font-style: italic;
-    text-align: right;
+    text-align: center;
     margin-top: var(--spacing-lg);
     padding-top: var(--spacing-md);
-    border-top: 1px solid var(--border-color);
-    opacity: 0.85;
-    max-width: 800px;
+    max-width: 700px;
     margin-left: auto;
-    margin-right: 0;
+    margin-right: auto;
+    opacity: 0.9;
     transition: opacity 0.3s ease;
 }
 
